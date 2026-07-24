@@ -110,13 +110,13 @@ html = html.replace(/\s*<\/x-dc>/, '');
 html = html.replace(/<script type="text\/x-dc"[\s\S]*?<\/script>/, '');
 
 // --- Add meta/title/helmet content to <head>. ---
-const headExtras = `<title>Niels Brinch: independent developer, Copenhagen</title>
-<meta name="description" content="Niels Brinch, independent developer in Copenhagen. Maker of 4i (turn any song into a music video), PageRain, the Pixel Pusher album, Space Mazing, Gyxi and more.">
+const headExtras = `<title>Niels Brinch: independent developer</title>
+<meta name="description" content="Niels Brinch, independent developer. Maker of 4i (turn any song into a music video), PageRain, the Pixel Pusher album, Space Mazing, Gyxi and more.">
 <meta name="author" content="Niels Brinch">
 <link rel="canonical" href="https://nielsbrinch.com/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Niels Brinch, independent developer">
-<meta property="og:description" content="Independent developer in Copenhagen. Mostly music software and creator tools, plus a game. Main project: 4i.">
+<meta property="og:description" content="Independent developer. Mostly music software and creator tools, plus a game. Main project: 4i.">
 <meta property="og:url" content="https://nielsbrinch.com/">
 <meta name="twitter:card" content="summary_large_image">
 ${helmetInner.trim()}`;
