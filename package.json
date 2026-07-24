@@ -1,0 +1,10 @@
+{
+  "name": "nielsbrinch-com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single-page personal site for Niels Brinch, served statically.",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "build": "node build.js"
+  }
+}
